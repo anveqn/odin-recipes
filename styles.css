@@ -1,0 +1,50 @@
+body {
+    background-color: #ffd042;
+    max-width: 600px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+ul, ol, p{
+    background-color: #EFF1F3;
+}
+
+h1, h2{
+    background-color: #A52422;
+    color: white;
+}
+
+#menu {
+    background-color: #A52422;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+#main {
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+li {
+    padding: 5px;
+}
+
+#home {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffffff;
+    max-width: 50px;
+    background-color: #A52422;
+    text-decoration: none;
+}
+
+#home:hover, .recipe:hover{
+    color: rgb(190, 190, 190);
+    transition-duration: 500ms;
+}
+
+.recipe {
+    color: white;
+    text-decoration: none;
+}
